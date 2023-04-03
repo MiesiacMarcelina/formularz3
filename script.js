@@ -1,9 +1,8 @@
 var input_imie=document.getElementById('imie');
-var formularz = document.getElementById('form'); // element formularza
+var formularz = document.getElementById('form');
 
 input_imie.oninvalid = function(event)
 {
-	//event.preventDefault();
 	event.target.setCustomValidity('Imie jest niepoprawne, musi zaczynac się od dużej litery!');
 }; 
 input_imie.addEventListener('input', function() 
