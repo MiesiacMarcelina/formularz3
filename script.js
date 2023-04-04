@@ -8,7 +8,7 @@ input_imie.oninvalid = function(event)
 input_imie.addEventListener('input', function() 
 {
 	input_imie.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
 });
 
 
@@ -24,7 +24,7 @@ input_nazwisko.oninvalid = function(event2)
 input_nazwisko.addEventListener('input', function() 
 {
 	input_nazwisko.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
 });
 
 
@@ -37,7 +37,7 @@ input_data.oninvalid = function(event3)
 input_data.addEventListener('input', function() 
 {
 	input_data.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
 });
 
 
@@ -50,7 +50,7 @@ input_miasto.oninvalid = function(event4)
 input_miasto.addEventListener('input', function() 
 	{
 	input_miasto.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
   	});
 
 
@@ -63,7 +63,7 @@ input_kod.oninvalid = function(event5)
 input_kod.addEventListener('input', function() 
 	{
 	input_kod.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
   	});
 
 
@@ -76,7 +76,7 @@ input_ulica.oninvalid = function(event6)
 input_ulica.addEventListener('input', function() 
 	{
 	input_ulica.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
   	});
 
 
@@ -89,7 +89,7 @@ input_numer_domu.oninvalid = function (event7)
 input_numer_domu.addEventListener('input', function() 
 	{
 	input_numer_domu.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
   	});
 
 
@@ -102,7 +102,7 @@ input_numer_mieszkania.oninvalid = function (event8)
 input_numer_mieszkania.addEventListener('input', function() 
 	{
 	input_numer_mieszkania.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
   	});
 
 
@@ -115,5 +115,5 @@ input_numer_tel.oninvalid = function (event9)
 input_numer_tel.addEventListener('input', function() 
 	{
 	input_numer_tel.setCustomValidity(''); // usuwanie niestandardowej wiadomości błędu
-	formularz.reportValidity(); // sprawdzanie poprawności całego formularza
+	//formularz.reportValidity(); // sprawdzanie poprawności całego formularza
   	});
